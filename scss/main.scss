@@ -1,0 +1,30 @@
+@use './header.scss' as *;
+@use './container.scss' as *;
+@use './footer-icons.scss' as *;
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../images/bg-desktop.svg);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-color: #684BB1;
+    margin: 0 auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+    

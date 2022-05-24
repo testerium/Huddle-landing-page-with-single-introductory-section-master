@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+
+    & article {
+        width: 520px;
+        margin-top: 30px;
+    }    
+
+    & h1 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+
+    & p {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+        margin: 24px 70px 24px 0;
+    }
+
+    & button {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #684BB1;
+        padding: 14px 64px;
+        background: #FFFFFF;
+        box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+        border-radius: 28px;
+        border: none;
+    }
+
+    & button:hover {
+        cursor: pointer;
+        color: #FFFFFF;
+        background: #E880E8;
+    }
+}

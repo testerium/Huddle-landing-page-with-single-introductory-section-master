@@ -1,0 +1,18 @@
+.icons {
+    float: right;
+    margin-right: 400px;
+
+    & img {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+        background: none;
+    }
+
+    & img:hover {
+        cursor: pointer;
+        background: #FF52C1;
+        border-radius: 50%;
+    }
+}
